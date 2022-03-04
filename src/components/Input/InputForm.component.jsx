@@ -1,7 +1,7 @@
 import React from 'react'
 import { Field } from 'formik'
 import { Box, TextField } from '@mui/material';
-//import './input.styles.css'
+import './input.styles.css'
 
 const InputForm = ({ name, type, label, error, helperText }) => {
     return (

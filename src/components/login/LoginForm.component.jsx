@@ -17,7 +17,7 @@ const LoginForm = () => {
                 formikHelpers.resetForm()
             }}
             >
-                {({ errors, isValid, touched }) => (
+                {() => (
                     <Form>
                         <InputForm name='email' type='email' label='Email' as={TextField} />
                         <InputForm name='password' type='password' label='Password' as={TextField} />
