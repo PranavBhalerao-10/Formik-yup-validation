@@ -21,7 +21,7 @@ const LoginForm = () => {
                     <Form>
                         <InputForm name='email' type='email' label='Email' as={TextField} />
                         <InputForm name='password' type='password' label='Password' as={TextField} />
-                        <SubmitButton type='submit' size='large'>SignUp</SubmitButton>
+                        <SubmitButton type='submit' size='large'>SignIn</SubmitButton>
                     </Form>
                 )}
             </Formik>
